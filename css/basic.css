@@ -1,0 +1,59 @@
+* {
+    box-sizing:border-box;
+}
+
+.parent {
+    width: 100%;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+img.logo {
+    max-width: 70px;
+}
+
+img.cover {
+    width: 100%;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+hr {
+    height: 0.3em;
+    background-color: #7d97ad;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.3em 0;
+    color: #2d3c49;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c-child1 {
+    width: 80%;
+    margin: auto;
+}

@@ -2,37 +2,51 @@
 <html>
     <head>
         <title>My Portfolio</title>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" type="text/css" href="./css/basic.css">
         <link rel="stylesheet" media="screen and (min-width: 500px)" href="./css/medium.css">
+        <link rel="stylesheet" media="screen and (min-width: 900px)" href="./css/large.css">
+        <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
     </head>
     <body>
-        <header class="parent clearfix text-right">
-            <img class="logo float-left" src="./img/ulogo.png"><h1>Henry Liao</h1><h3>Full-stack man</h3>
+        <header class="parent-container clearfix text-right">
+            <img class="logo float-left" src="./img/ulogo.png">
+            <h1 class="no-margin">Henry Liao</h1>
+            <h3>Full-stack Jedi</h3>
             <hr>
         </header>
-        <main class="parent text-center">
-            <img class="cover" src="./img/cover.jpg">
-            <h2>Projects</h2>
-            <div class="container">
-                <div class="c-child1">
-                    <img class="cover" src="./img/cover.jpg">
-                    <h2>Indoor localization</h2>
-                    <h6>https://github.com/hungyunliao/Indoor-accelerometer-localization</h6>
+        <main class="parent-container">
+            <section id="intro">
+                <img class="wd100" alt="cover_image" src="./img/cover.jpg">
+                <p class="intro-wording">I'm currently a full-stack engineer at Papaya Payments. Papaya is a mobile app which allows you to pay <strong>ANY</strong> bill in SECONDS. My main task is to establish the websites.</p>
+            </section>
+            <section id="pro">
+                <h2 class="pro-title">Projects</h2>
+                <div class="pro-container">
+                    <div class="pro-child">
+                        <img class="pro-img" alt="indoor_image" src="./img/indoor.png">
+                        <h3>Indoor localization</h3>
+                        <a href="https://github.com/hungyunliao/Indoor-accelerometer-localization" target="_blank"><h6>https://github.com/hungyunliao/Indoor-accelerometer-localization</h6></a>
+                    </div>
+                    <div class="pro-child">
+                        <img class="pro-img" alt="personal_image" src="./img/personal_website.png">
+                        <h3>Personal website</h3>
+                        <a href="http://www-scf.usc.edu/~hungyunl/index.html" target="_blank"><h6>http://www-scf.usc.edu/~hungyunl/index.html</h6></a>
+                    </div>
+                    <div class="pro-child">
+                        <img class="pro-img" alt="cc_image" src="./img/cc_recomm.png">
+                        <h3>Credit card recom</h3>
+                        <a href="https://github.com/hungyunliao/Directed-Research" target="_blank"><h6>https://github.com/hungyunliao/Directed-Research</h6></a>
+                    </div>
                 </div>
-                <div class="c-child1">
-                    <img class="cover" src="./img/cover.jpg">
-                    <h2>Indoor localization</h2>
-                    <h6>https://github.com/hungyunliao/Indoor-accelerometer-localization</h6>
-                </div>
-                <div class="c-child1">
-                    <img class="cover" src="./img/cover.jpg">
-                    <h2>Indoor localization</h2>
-                    <h6>https://github.com/hungyunliao/Indoor-accelerometer-localization</h6>
-                </div>
-            </div>
+            </section>
         </main>
-        <footer class="parent">
+        <footer class="parent-container margin-top">
+            <h6 class="text-center">
+                Any question? Please contact <a href="mailto:henry@ppaya.com">henry@ppaya.com</a><br>
+                &copy;&nbsp;All rights reserved.
+            </h6>
         </footer>
     </body>
 </html>

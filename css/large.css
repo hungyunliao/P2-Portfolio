@@ -1,0 +1,13 @@
+.pro-child {
+    width: 30%;
+    margin: 10px auto;
+}
+
+.pro-img {
+    height: 20vw;
+}
+
+.parent-container {
+    width: 900px;
+    margin: auto;
+}

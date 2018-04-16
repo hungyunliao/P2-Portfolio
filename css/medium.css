@@ -1,4 +1,12 @@
-.c-child1 {
-    width: 30%;
-    margin: auto;
+.pro-child {
+    width: 40%;
+    margin: 10px auto;
+}
+
+.pro-img {
+    height: 30vw;
+}
+
+p {
+    font-size: 1.2em;
 }

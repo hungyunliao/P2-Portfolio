@@ -81,7 +81,7 @@ p {
     max-height: 220px;
 }
 
-.pro-title {
+.intro-title, .pro-title {
     text-align: left;
     color: #7d97ad;
     margin: 0.5em auto;
